@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".Login">
+
+    <TextView
+        android:id="@+id/rHarf"
+        android:layout_width="66dp"
+        android:layout_height="106dp"
+        android:layout_marginStart="112dp"
+        android:gravity="center"
+        android:text="R"
+        android:textColor="@color/white"
+        android:textSize="80dp"
+        app:layout_constraintBottom_toBottomOf="@+id/eHarf"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/eHarf"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/nHarf"
+        android:layout_width="66dp"
+        android:layout_height="106dp"
+        android:layout_marginStart="308dp"
+        android:layout_marginTop="218dp"
+        android:layout_marginEnd="37dp"
+        android:gravity="center"
+        android:text="N"
+        android:textColor="@color/white"
+        android:textSize="80dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/ilkE"
+        android:layout_width="66dp"
+        android:layout_height="106dp"
+        android:layout_marginStart="24dp"
+        android:gravity="center"
+        android:text="E"
+        android:textColor="@color/white"
+        android:textSize="80dp"
+        app:layout_constraintBottom_toBottomOf="@+id/rHarf"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/rHarf"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/eHarf"
+        android:layout_width="66dp"
+        android:layout_height="106dp"
+        android:layout_marginStart="204dp"
+        android:gravity="center"
+        android:text="E"
+        android:textColor="@color/white"
+        android:textSize="80dp"
+        app:layout_constraintBottom_toBottomOf="@+id/nHarf"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/nHarf"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="180dp"
+        android:layout_height="132dp"
+        android:layout_marginTop="43dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ealogo" />
+
+    <TextView
+        android:id="@+id/numara"
+        android:layout_width="388dp"
+        android:layout_height="122dp"
+        android:layout_margin="5dp"
+        android:text="02205076019"
+        android:textColor="@color/white"
+        android:textSize="60dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.478"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rHarf" />
+
+    <ImageView
+        android:id="@+id/eKontrol"
+        android:layout_width="66dp"
+        android:layout_height="106dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginBottom="144dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/onay" />
+
+    <ImageView
+        android:id="@+id/rKontrol"
+        android:layout_width="66dp"
+        android:layout_height="106dp"
+        android:layout_marginStart="112dp"
+        android:layout_marginBottom="140dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/onay" />
+
+    <ImageView
+        android:id="@+id/eeKontrol"
+        android:layout_width="66dp"
+        android:layout_height="106dp"
+        android:layout_marginStart="204dp"
+        android:layout_marginBottom="140dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/onay" />
+
+    <ImageView
+        android:id="@+id/nKontrol"
+        android:layout_width="66dp"
+        android:layout_height="106dp"
+        android:layout_marginStart="308dp"
+        android:layout_marginBottom="140dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/onay" />
+
+    <ProgressBar
+        android:id="@+id/progress"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="59dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="34dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rKontrol" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Siparis"
+    android:background="@color/black">
+
+    <TextView
+        android:id="@+id/check2"
+        android:layout_width="289dp"
+        android:layout_height="73dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="284dp"
+        android:gravity="center"
+        android:text="TextView"
+        android:textColor="#EA2121"
+        android:textSize="22dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/check"
+        android:layout_width="288dp"
+        android:layout_height="114dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="76dp"
+        android:gravity="center"
+        android:text="ceek"
+        android:textColor="#EA2121"
+        android:textSize="21dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/icinde"
+        android:layout_width="283dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="212dp"
+        android:gravity="center"
+        android:text="İçinde"
+        android:textColor="#EA2121"
+        android:textSize="22dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/olsun"
+        android:layout_width="288dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="376dp"
+        android:gravity="center"
+        android:text="Olsun"
+        android:textColor="#EA2121"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/yeni"
+        android:layout_width="290dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="18dp"
+        android:gravity="center"
+        android:text="Yeni Sipariş"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ekstra" />
+
+    <TextView
+        android:id="@+id/ekstra"
+        android:layout_width="292dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="452dp"
+        android:gravity="center"
+        android:textColor="#EA2121"
+        android:textSize="22dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="84dp"
+        android:layout_height="55dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/ealogo"
+        tools:layout_editor_absoluteY="-4dp" />
+
+    <ImageView
+        android:id="@+id/cikis"
+        android:layout_width="129dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/yeni"
+        app:srcCompat="@drawable/carpi" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

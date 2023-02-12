@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/corba"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".Corba">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="114dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ealogo" />
+
+    <CheckBox
+        android:id="@+id/isCorba"
+        android:layout_width="127dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="226dp"
+        android:text="Çorba"
+        android:textColor="#E83636"
+        android:textSize="26dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/devam"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <RadioGroup
+        android:id="@+id/corbalar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="126dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/isCorba"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RadioButton
+            android:id="@+id/ezogelin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Ezogelin"
+            android:textColor="@color/white"
+            android:textSize="22dp"
+            tools:layout_editor_absoluteX="25dp"
+            tools:layout_editor_absoluteY="208dp" />
+
+        <RadioButton
+            android:id="@+id/dugun"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="4dp"
+            android:text="Düğün"
+            android:textColor="@color/white"
+            android:textSize="22dp"
+            tools:layout_editor_absoluteX="25dp"
+            tools:layout_editor_absoluteY="256dp" />
+
+        <RadioButton
+            android:id="@+id/mercimek"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="4dp"
+            android:text="Mercimek"
+            android:textColor="@color/white"
+            android:textSize="22dp"
+            tools:layout_editor_absoluteX="25dp"
+            tools:layout_editor_absoluteY="304dp" />
+
+        <RadioButton
+            android:id="@+id/brokoli"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="4dp"
+            android:text="Brokoli"
+            android:textColor="@color/white"
+            android:textSize="22dp"
+            tools:layout_editor_absoluteX="25dp"
+            tools:layout_editor_absoluteY="352dp" />
+
+        <RadioButton
+            android:id="@+id/kelle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="4dp"
+            android:text="Kelle-Paça"
+            android:textColor="@color/white"
+            android:textSize="22dp"
+            tools:layout_editor_absoluteX="25dp"
+            tools:layout_editor_absoluteY="400dp" />
+
+        <RadioButton
+            android:id="@+id/yayla"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Yayla"
+            android:textColor="@color/white"
+            android:textSize="22dp"
+            tools:layout_editor_absoluteX="25dp"
+            tools:layout_editor_absoluteY="448dp" />
+
+        <RadioButton
+            android:id="@+id/sehriye"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="4dp"
+            android:text="Şehriye"
+            android:textColor="@color/white"
+            android:textSize="22dp"
+            tools:layout_editor_absoluteX="25dp"
+            tools:layout_editor_absoluteY="496dp" />
+
+        <RadioButton
+            android:id="@+id/domates"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="4dp"
+            android:text="Domates"
+            android:textColor="@color/white"
+            android:textSize="22dp"
+            tools:layout_editor_absoluteX="25dp"
+            tools:layout_editor_absoluteY="544dp" />
+
+        <RadioButton
+            android:id="@+id/tarhana"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="4dp"
+            android:text="Tarhana"
+            android:textColor="@color/white"
+            android:textSize="22dp"
+            tools:layout_editor_absoluteX="25dp"
+            tools:layout_editor_absoluteY="592dp" />
+
+        <RadioButton
+            android:id="@+id/mantar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="4dp"
+            android:text="Mantar"
+            android:textColor="@color/white"
+            android:textSize="22dp"
+            tools:layout_editor_absoluteX="25dp"
+            tools:layout_editor_absoluteY="640dp" />
+
+        <RadioButton
+            android:id="@+id/iskembe"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="4dp"
+            android:text="İşkembe"
+            android:textColor="@color/white"
+            android:textSize="22dp" />
+
+        <RadioButton
+            android:id="@+id/tavuk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tavuk"
+            android:textColor="@color/white"
+            android:textSize="22dp" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/devam"
+        android:layout_width="179dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="226dp"
+        android:layout_marginEnd="24dp"
+        android:backgroundTint="#E83636"
+        android:text="Devam"
+        android:textSize="26dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/corbalar"
+        app:layout_constraintTop_toBottomOf="@+id/isCorba" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
